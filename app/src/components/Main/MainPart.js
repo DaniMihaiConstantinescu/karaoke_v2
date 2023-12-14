@@ -12,7 +12,7 @@ export default function MainPart({song}) {
         :  <h1 className='text-center w-full pt-20 font-semibold'>No song selected</h1>
       }
 
-      {song && <PlayerContainer /> }
+      {song && <PlayerContainer song={song}/> }
 
     </div>
 
